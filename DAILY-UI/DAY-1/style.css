@@ -1,0 +1,43 @@
+/* COMMON CSS FOR FONTS AND ALL */
+body {
+    font-family: 'Inter',sans-serif;
+}
+/* COMMON CSS FOR FONTS AND ALL */
+/* COMMON CLASS */
+.d-flex {
+    display: flex;
+}
+.d-grid-center {
+    display: grid;
+    place-items: center;
+}
+/* COMMON CLASS */
+/*  DAY 1 UI CHALLENGE START HERE */
+.leftSide-section {
+    background-color: #2C73EB;
+    width: 50%;
+    min-height: 745px;
+}
+.logo-section {
+    position: absolute;
+    left: 110px;
+    top: 10px;
+}
+.rightSide-section {
+    width: 50%;
+    min-height: 745px;
+}
+.rightSide-section .back-btn {
+    margin-left: 57px;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    gap: 14.14px;
+}
+.rightSide-section .back-btn span {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    color: #8692A6
+}
+/*  DAY 1 UI CHALLENGE END HERE */
