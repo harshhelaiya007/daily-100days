@@ -22,9 +22,10 @@
     </header>
 
     <section class="loginSection">
-        <div class="container d-flex">
+        <div class="login-container d-flex">
             <div class="leftSide-section">
                 <div class="center-gif-image">
+                    <img src="../image/Day-1/running-girl.gif" alt="running-girl">
                 </div>
             </div>
             <div class="rightSide-section">
@@ -33,13 +34,34 @@
                     <span>Back</span>
                 </div>
                 <div class="center-form-div d-grid-center">
-                    <div class="form-heading">
-                        <h1>Account Login</h1>
-                        <p>If you are already a member you can login with your email address and password.</p>
+                    <div class="min-container">
+                        <div class="form-heading">
+                            <h1 class="form-heading-h1">Account Login</h1>
+                            <p class="account-des">If you are already a member you can login with your email address and password.</p>
+                        </div>
+                        <form class="form-section">
+                            <div class="form-group">
+                                <label for="emailInput" class="form-group-label">Email address</label>
+                                <input type="text" class="input-class" id="emailInput">
+                            </div>
+                            <div class="form-group">
+                                <label for="passwordInput" class="form-group-label">Password</label>
+                                <input type="text" class="input-class" id="passwordInput">
+                            </div>
+                            <div class="form-group">
+                                <label for="rememberMeID" class="checkbox-label">
+                                    <input type="checkbox" name="rememberMe" id="rememberMeID" class="input-checkbox-class">
+                                    <span>Remember me</span>
+                                </label>
+                            </div>
+                            <div class="form-group">
+                                <button class="registerBtn" type="submit">Submit</button>
+                            </div>
+                            <div class="form-group signup-form-wrapper">
+                                <span class="signup-text">Dont have an account ? <a href="#">Sign up here </a></span>
+                            </div>
+                        </form>
                     </div>
-                    <form>
-                        .form-group
-                    </form>
                 </div>
             </div>
         </div>
