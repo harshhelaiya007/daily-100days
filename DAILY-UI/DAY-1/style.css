@@ -11,6 +11,9 @@ body {
   display: grid;
   place-items: center;
 }
+.dsp-none {
+  display: none;
+}
 .min-container {
   max-width: 427px;
   margin: 0 auto;
@@ -50,7 +53,7 @@ body {
   height: 90%;
 }
 .input-class {
-  width: 426px;
+  width: 395px;
   height: 55px;
   border: 1px solid #8692a6;
   border-radius: 6px;
@@ -81,6 +84,8 @@ body {
 }
 .form-section {
   margin-top: 24px;
+  border-top: 1px solid #F5F5F5;
+  padding-top: 24px;
 }
 .form-heading .form-heading-h1 {
   margin-bottom: 10px;
