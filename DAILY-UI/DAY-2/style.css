@@ -23,6 +23,11 @@ body {
   margin: 0 auto;
 }
 
+.container-mobile {
+  max-width: 375px;
+  margin: 0 auto;
+}
+
 /* COMMON CLASS */
 /*  DAY 2 UI CHALLENGE START HERE */
 .headerSection__logo {
