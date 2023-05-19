@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day 2</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Karla:wght@400;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../ui-resets.css">
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+
+    <!-- HEADER SECTION -->
+    <header class="headerSection">
+        <div class="conatiner">
+            <div class="headerSection__logo d-flex">
+                <img src="./image/left-arrow.svg" alt="left arrow" class="headerSection__image">
+                <span>Checkout</span>
+            </div>
+        </div>
+    </header>
+    <!-- HEADER SECTION -->
+
+    <!-- CREDIT CARD SECTION START HERE -->
+    <section class="CreditCardSection">
+        <div class="container">
+            <div class="CreditCardSection__totalAmontTxt">
+                <p class="CreditCardSection__totalAmontTxt-text">Total amount due: <span
+                        class="CreditCardSection__totalAmontTxt-amt">$29.50</span></p>
+            </div>
+            <div class="CreditCardSection__cardOptions">
+                <div class="d-flex">
+                    <div class="CreditCardSection_cardOptions_wrapper">
+                        <img src="./image/card1.svg" alt="card">
+                    </div>
+                    <div class="CreditCardSection_cardOptions_wrapper">
+                        <img src="./image/paypal.svg" alt="paypal">
+                    </div>
+                    <div class="CreditCardSection_cardOptions_wrapper">
+                        <img src="./image/apple-pay.svg" alt="apple">
+                    </div>
+                </div>
+            </div>
+            <form class="CreditCardSection__form">
+                <div class="CreditCardSection__form-group">
+                    <label for="cardNumberId" class="CreditCardSection__label">Card number</label>
+                    <input type="number" class="CreditCardSection__input" id="cardNumberId"
+                        placeholder="0000 0000 0000 0000">
+                </div>
+                <div class="CreditCardSection__form-group">
+                    <label for="cardName" class="CreditCardSection__label">Cardholder’s name</label>
+                    <input type="text" class="CreditCardSection__input" id="cardName" placeholder="Name">
+                </div>
+                <div class="d-flex">
+                    <div class="CreditCardSection__form-group">
+                        <label for="date" class="CreditCardSection__label">Expiry date</label>
+                        <input type="text" class="CreditCardSection__input half" id="date" placeholder="MM / YYYY">
+                    </div>
+                    <div class="CreditCardSection__form-group">
+                        <label for="cvv" class="CreditCardSection__label">CVV</label>
+                        <input type="text" class="CreditCardSection__input half-more" id="cvv" placeholder="3 digits">
+                    </div>
+                </div>
+                <div class="cardDesc">
+                    <p>A payment confirmation message will be sent to your email address</p>
+                </div>
+                <div class="CreditCardSection__form-group cardBtn">
+                    <button class="CreditCardSection__button">Complete Payment</button>
+                </div>
+            </form>
+        </div>
+    </section>
+    <!-- CREDIT CARD SECTION END HERE -->
+</body>
+<script src="./main.js"></script>
+
+</html>

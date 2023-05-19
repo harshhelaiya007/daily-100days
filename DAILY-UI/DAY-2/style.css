@@ -1,0 +1,129 @@
+/* COMMON CSS FOR FONTS AND ALL */
+body {
+  font-family: "Karla", sans-serif;
+}
+
+/* COMMON CSS FOR FONTS AND ALL */
+/* COMMON CLASS */
+.d-flex {
+  display: flex;
+}
+
+.d-grid-center {
+  display: grid;
+  place-items: center;
+}
+
+.dsp-none {
+  display: none;
+}
+
+.min-container {
+  max-width: 427px;
+  margin: 0 auto;
+}
+
+/* COMMON CLASS */
+/*  DAY 2 UI CHALLENGE START HERE */
+.headerSection__logo {
+  align-items: center;
+  text-align: center;
+  gap: 95px;
+  margin-top: 30px;
+}
+
+.headerSection__logo img {
+  margin-left: 33px;
+}
+
+.headerSection__logo span {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23px;
+  color: #000000;
+}
+
+.CreditCardSection .CreditCardSection__totalAmontTxt {
+  margin-top: 24px;
+  text-align: center;
+}
+
+.CreditCardSection .CreditCardSection__totalAmontTxt .CreditCardSection__totalAmontTxt-text {
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 29px;
+  color: #6B6D6F;
+}
+
+.CreditCardSection .CreditCardSection__totalAmontTxt .CreditCardSection__totalAmontTxt-text .CreditCardSection__totalAmontTxt-amt {
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 29px;
+  color: #000000;
+}
+
+.CreditCardSection .CreditCardSection__cardOptions {
+  margin-top: 42px;
+  margin-bottom: 53px;
+}
+
+.CreditCardSection__cardOptions .d-flex {
+  justify-content: center;
+  gap: 24px;
+}
+
+.CreditCardSection__input {
+  background: #EEF1F4;
+  border-radius: 8px;
+  width: 300px;
+  height: 45px;
+  outline: none;
+  padding: 0 15px;
+  border: none;
+  margin-top: 6px;
+  margin-bottom: 25px;
+}
+
+.CreditCardSection__input.half {
+  width: 91px;
+}
+
+.CreditCardSection__input.half-more {
+  width: 148px;
+}
+
+.CreditCardSection__label {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  color: #3A3C3F;
+}
+
+.cardDesc {
+  width: 208px;
+  height: max-content;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 15px;
+  color: #3A3C3F;
+  margin: 0 auto;
+}
+
+.CreditCardSection__form-group.cardBtn {
+  text-align: center;
+}
+
+.CreditCardSection__form-group .CreditCardSection__button {
+  background: #5686E1;
+  border-radius: 8px;
+  width: 325px;
+  height: 68px;
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 23px;
+  color: #FFFFFF;
+  border: none;
+  margin-top: 20px;
+}
+
+/*  DAY 2 UI CHALLENGE END HERE */
