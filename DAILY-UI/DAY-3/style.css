@@ -1,0 +1,75 @@
+/* COMMON CSS FOR FONTS AND ALL */
+body {
+  font-family: "Karla", sans-serif;
+}
+
+/* COMMON CSS FOR FONTS AND ALL */
+/* COMMON CLASS */
+.d-flex {
+  display: flex;
+}
+
+.d-grid-center {
+  display: grid;
+  place-items: center;
+}
+
+.dsp-none {
+  display: none;
+}
+
+.min-container {
+  max-width: 427px;
+  margin: 0 auto;
+}
+
+.container-mobile {
+  max-width: 375px;
+  margin: 0 auto;
+}
+
+.c-pointer {
+  cursor: pointer;
+}
+/* COMMON CLASS */
+/*  DAY 2 UI CHALLENGE START HERE */
+
+/* HEADER CSS */
+.headerSection .headerSection__wrapper {
+  margin-top: 45px;
+  justify-content: space-between;
+}
+
+.headerSection .headerSection__wrapper .headerSection__left .headerSection__ul {
+  list-style-type: none;
+  gap: 65px;
+  align-items: center;
+  margin-left: 217px;
+}
+
+.headerSection .headerSection__wrapper .headerSection__right .headerSection__accountInfoSection .headerSection__search {
+  padding-right: 34px;
+  border-right: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.headerSection .headerSection__wrapper .headerSection__right .headerSection__accountInfoSection .headerSection__account {
+  margin-left: 31px;
+}
+
+.headerSection .headerSection__wrapper .headerSection__right .headerSection__accountInfoSection .headerSection__cart {
+  margin-left: 31px;
+}
+
+.headerSection .headerSection__wrapper .headerSection__right .headerSection__accountInfoSection .headerSection__cart .headerSection__cart-circle {
+  width: 48px;
+  height: 48px;
+  background: #FFFFFF;
+  border-radius: 50%;
+}
+
+.headerSection .headerSection__wrapper .headerSection__right .headerSection__accountInfoSection {
+  align-items: center;
+}
+/* HEADER CSS */
+
+/*  DAY 2 UI CHALLENGE END HERE */
