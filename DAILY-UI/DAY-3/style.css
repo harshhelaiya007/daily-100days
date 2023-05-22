@@ -329,6 +329,7 @@ body {
   text-align: center;
   color: #000000;
 }
+
 .newsEditorialSection__button {
   margin-bottom: 120px;
   text-align: center;
@@ -350,5 +351,35 @@ body {
 }
 
 /* NEWS EDITORIAL SECTION CSS */
+/* BRAND SECTION CSS */
+.brandSection {
+  border: 1px solid #E2E2E2;
+  padding: 140px 0 90px 0;
+}
+
+.brandSection__tagline {
+  width: 735px;
+  margin: 0 auto;
+}
+
+.brandSection__tagline .brandSection__tagline-h3 {
+  font-family: 'New York Medium';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 38px;
+  line-height: 46px;
+  text-align: center;
+  color: #000000;
+}
+
+.bransSection__companyLogo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 80px;
+  margin-top: 110px;
+}
+
+/* BRAND SECTION CSS */
 
 /*  DAY 2 UI CHALLENGE END HERE */
