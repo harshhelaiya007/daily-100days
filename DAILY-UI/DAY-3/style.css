@@ -1,7 +1,7 @@
 /* COMMON CSS FOR FONTS AND ALL */
 body {
   /* font-family: "lato", sans-serif; */
-  background-color: skyblue;
+  /* background-color: skyblue; */
 }
 
 /* COMMON CSS FOR FONTS AND ALL */
@@ -36,7 +36,7 @@ body {
 .layContainer {
   max-width: 1770px;
   margin: 0 auto;
-  border: 1px solid black;
+  /* border: 1px solid black; */
 }
 
 /* COMMON CLASS */
@@ -197,11 +197,158 @@ body {
 /* HEADER SECOND VERSION CSS */
 .headerSection-v2 {
   top: 0;
+  border: 1px solid #E2E2E2;
+  background-color: #FFFFFF;
+  position: sticky;
 }
 
 .headerSection-v2 .headerSection__wrapper-v2 {
   padding: 10px 76px;
 }
+
+.headerSection-v2 .headerSection__wrapper-v2 .headerSection__cart .headerSection__cart-circle {
+  background: #F1EADC;
+}
+
 /* HEADER SECOND VERSION CSS */
+/* NEWS EDITORIAL SECTION CSS */
+/* .newsEditorialSection {
+  height: max-content;
+} */
+
+.newsEditorialSection .newsEditorialSection__title {
+  text-align: center;
+  margin: 84px 0 0 0;
+}
+
+.newsEditorialSection .newsEditorialSection__title .newsEditorialSection__title-h1 {
+  font-family: 'New York Large';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 52px;
+  line-height: 60px;
+  color: #000000;
+}
+
+.newsEditorialSection__cardSection {
+  justify-content: space-around;
+  margin: 84px 0;
+}
+
+.newEditorialSection__card.midCard {
+  width: 575px;
+  height: max-content;
+}
+
+.newEditorialSection__card.midCard .newEditorialSection__card-image {
+  height: 755px;
+  width: 575px;
+}
+
+.newEditorialSection__card .newEditorialSection__card-image img {
+  width: 100%;
+  height: 100%;
+}
+
+.newEditorialSection__card.startCard,
+.newEditorialSection__card.endCard {
+  width: 430px;
+  height: max-content;
+}
+
+.newEditorialSection__card.startCard .newEditorialSection__card-image,
+.newEditorialSection__card.endCard .newEditorialSection__card-image {
+  width: 430px;
+  height: max-content;
+}
+
+.newEditorialSection__card .newEditorialSection__card-title {
+  margin-top: 32px;
+}
+
+.newEditorialSection__card .newEditorialSection__card-title h4 {
+  font-family: 'New York Small';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 120%;
+  color: #000000;
+}
+
+.newsEditorialSection__card-desc {
+  margin-top: 22px;
+}
+
+.newsEditorialSection__card-desc p {
+  font-family: 'New York Small';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 24px;
+  color: #606060;
+}
+
+.newsEditorialSection__card-tag {
+  margin-top: 20px;
+  gap: 10px;
+  align-items: center;
+}
+
+.newsEditorialSection__card-tag .tag-text {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 114%;
+  color: #000000;
+}
+
+.newsEditorialSection__card-tag .tag-border {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 114%;
+  letter-spacing: 0.08em;
+  color: #000000;
+  text-align: center;
+  border: 1px solid #000000;
+  padding: 5px 10px;
+}
+
+.newsEditorialSection__quoteText {
+  margin-top: 32px;
+}
+
+.newsEditorialSection__quoteText p {
+  font-family: 'New York Small';
+  font-style: italic;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 138%;
+  text-align: center;
+  color: #000000;
+}
+.newsEditorialSection__button {
+  margin-bottom: 120px;
+  text-align: center;
+}
+
+.newsEditorialSection__button .newsEditorialSection__button-btn {
+  border: 1px solid #000000;
+  padding: 22px 35px;
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 16px;
+  text-align: center;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #000000;
+  background-color: #FFFFFF;
+}
+
+/* NEWS EDITORIAL SECTION CSS */
 
 /*  DAY 2 UI CHALLENGE END HERE */
