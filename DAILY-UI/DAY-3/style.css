@@ -41,12 +41,16 @@ body {
 /*  DAY 2 UI CHALLENGE START HERE */
 
 /* HEADER CSS */
+.headerSection {
+  position: fixed;
+  top: 25px;
+  width: 100%;
+}
 .headerSection .headerSection__wrapper {
   /* margin-top: 45px; */
   justify-content: space-between;
-  position: fixed;
-  width: calc(100% - 150px);
-  top: 25px;
+  /* position: fixed;
+  width: calc(100% - 150px); */
   align-items: center;
 }
 
