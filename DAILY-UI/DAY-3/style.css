@@ -1,6 +1,7 @@
 /* COMMON CSS FOR FONTS AND ALL */
 body {
-  font-family: "Karla", sans-serif;
+  /* font-family: "lato", sans-serif; */
+  background-color: skyblue;
 }
 
 /* COMMON CSS FOR FONTS AND ALL */
@@ -35,6 +36,7 @@ body {
 .layContainer {
   max-width: 1770px;
   margin: 0 auto;
+  border: 1px solid black;
 }
 
 /* COMMON CLASS */
@@ -46,6 +48,7 @@ body {
   top: 25px;
   width: 100%;
 }
+
 .headerSection .headerSection__wrapper {
   /* margin-top: 45px; */
   justify-content: space-between;
@@ -67,14 +70,14 @@ body {
   justify-content: flex-end;
 }
 
-.headerSection .headerSection__wrapper .headerSection__left .headerSection__ul {
+.headerSection .headerSection__wrapper .headerSection__ul {
   list-style-type: none;
   gap: 65px;
   align-items: center;
   /* margin-left: 217px; */
 }
 
-.headerSection .headerSection__wrapper .headerSection__left .headerSection__ul .headerSection__list {
+.headerSection .headerSection__wrapper .headerSection__ul .headerSection__list {
   font-family: 'Lato';
   font-style: normal;
   font-weight: 400;
@@ -84,27 +87,27 @@ body {
   color: #000000;
 }
 
-.headerSection .headerSection__wrapper .headerSection__right .headerSection__accountInfoSection .headerSection__search {
+.headerSection__accountInfoSection .headerSection__search {
   padding-right: 34px;
   border-right: 1px solid rgba(0, 0, 0, 0.2);
 }
 
-.headerSection .headerSection__wrapper .headerSection__right .headerSection__accountInfoSection .headerSection__account {
+.headerSection__accountInfoSection .headerSection__account {
   margin-left: 31px;
 }
 
-.headerSection .headerSection__wrapper .headerSection__right .headerSection__accountInfoSection .headerSection__cart {
+.headerSection__accountInfoSection .headerSection__cart {
   margin-left: 31px;
 }
 
-.headerSection .headerSection__wrapper .headerSection__right .headerSection__accountInfoSection .headerSection__cart .headerSection__cart-circle {
+.headerSection__accountInfoSection .headerSection__cart .headerSection__cart-circle {
   width: 48px;
   height: 48px;
   background: #FFFFFF;
   border-radius: 50%;
 }
 
-.headerSection .headerSection__wrapper .headerSection__right .headerSection__accountInfoSection {
+.headerSection__accountInfoSection {
   align-items: center;
   padding-right: 25px;
 }
@@ -191,5 +194,14 @@ body {
 }
 
 /* BANNER CSS */
+/* HEADER SECOND VERSION CSS */
+.headerSection-v2 {
+  top: 0;
+}
+
+.headerSection-v2 .headerSection__wrapper-v2 {
+  padding: 10px 76px;
+}
+/* HEADER SECOND VERSION CSS */
 
 /*  DAY 2 UI CHALLENGE END HERE */
