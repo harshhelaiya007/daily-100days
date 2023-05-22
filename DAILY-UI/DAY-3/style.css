@@ -105,9 +105,23 @@ body {
   width: 50%;
 }
 
+.bannerSection .bannerSection__wrapper .bannerSection__leftSide {
+  position: relative;
+}
+
 .bannerSection .bannerSection__wrapper .bannerSection__leftSide .bannerSection__text {
   width: 681px;
   height: max-content;
+  position: absolute;
+  top: 30%;
+  margin-left: 75px;
+}
+
+.bannerSection .bannerSection__wrapper .bannerSection__leftSide .bannerSection__desc {
+  position: absolute;
+  bottom: 0;
+  margin-left: 75px;
+  margin-bottom: 75px;
 }
 
 .bannerSection .bannerSection__wrapper .bannerSection__rightSide {
@@ -142,11 +156,8 @@ body {
 }
 
 .bannerSection .bannerSection__wrapper .bannerSection__leftSide .bannerSection__leftSide-box {
-  display: grid;
-  place-content: center;
   width: 100%;
   height: 100%;
-  gap: 292px;
 }
 
 .bannerSection .bannerSection__wrapper .bannerSection__leftSide .bannerSection__desc .bannerSection__20x20Image {
