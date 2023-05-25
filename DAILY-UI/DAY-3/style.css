@@ -384,8 +384,8 @@ body {
 /* BRAND SECTION CSS */
 /* GRAM SECTION CSS */
 .gramSliderSection .gramSliderSection__wrapper {
-  padding: 0 75px;
-  margin: 73px 0;
+  padding: 73px 75px 92px 75px;
+  border-bottom: 1px solid #E2E2E2;
 }
 
 .gramSliderSection .gramSliderSection__wrapper .gramSliderSection__wrapper-inside {
@@ -422,11 +422,12 @@ body {
 
 .gramSliderSection .gramSliderSection__slider {
   gap: 25px;
+  margin-top: 72px;
 }
 
 .gramSliderSection .gramSliderSection__slider .gramSliderSection__item {
-  width: 334px;
-  height: 334px;
+  width: 100%;
+  height: 100%;
 }
 
 .gramSliderSection .gramSliderSection__slider .gramSliderSection__item .gramSliderSection__item-img {
@@ -435,5 +436,76 @@ body {
 }
 
 /* GRAM SECTION CSS */
+/* FOOTER SECTION CSS */
+.footerSection__wrapper {
+  padding: 48px 0;
+}
+
+.footerSection__wrapper .footerSection__emailSection {
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.footerSection__emailSection .footerSection__emailSection__text h6 {
+  font-family: 'New York Small';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 120%;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.footerSection__emailSection .footerSection__emailSection__text span {
+  font-family: 'New York Small';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 146%;
+  color: #6A6161;
+}
+
+.footerSection__emailSection__input {
+  position: relative;
+}
+
+.footerSection__emailSection__input label {
+  align-items: center;
+}
+
+.footerSection__emailSection-input {
+  width: 511.21px;
+  background: #FFFFFF;
+  border: 1px solid #000000;
+  padding: 21px 26px;
+  font-family: 'New York Small';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 24px;
+  color: #000000;
+}
+
+.footerSection__emailSection-input::placeholder {
+  color: #000000;
+}
+
+.footerSection__emailSection-arrow {
+  position: absolute;
+  right: 15px;
+}
+
+.footerSection__emailSection-smile {
+  margin-right: 9px;
+  width: 14px;
+  height: 14px;
+}
+
+.footerSection__emailSection__text .d-flex {
+  align-items: center;
+  margin-bottom: 5px;
+}
+/* FOOTER SECTION CSS */
 
 /*  DAY 2 UI CHALLENGE END HERE */
