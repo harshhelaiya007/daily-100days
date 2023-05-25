@@ -510,7 +510,10 @@ body {
 .footerSection__mainSection {
   background-color: #FFF6F4;
   /* height: 613px; */
-  padding: 95px;
+  padding: 95px 95px 60px 95px;
+}
+
+.footerSection__mainSection .footerSection__mainInside {
   justify-content: space-between;
 }
 
@@ -565,6 +568,30 @@ body {
   font-size: 17px;
   line-height: 24px;
   color: #606060;
+}
+
+.footerSection__social {
+  margin-top: 96px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footerSection__social-img {
+  gap: 10px;
+}
+
+.footerSection__social-img img {
+  width: 15px;
+  height: 15px;
+}
+
+.footerSection__social .footerSeciton__copyRightTxt p {
+  font-family: 'New York Small';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 24px;
+  color: #6A6161;
 }
 
 /* FOOTER SECTION CSS */
