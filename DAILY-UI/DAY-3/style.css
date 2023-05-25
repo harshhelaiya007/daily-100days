@@ -506,6 +506,67 @@ body {
   align-items: center;
   margin-bottom: 5px;
 }
+
+.footerSection__mainSection {
+  background-color: #FFF6F4;
+  /* height: 613px; */
+  padding: 95px;
+  justify-content: space-between;
+}
+
+.footerSection__mainSection__image {
+  flex-direction: column;
+  align-items: center;
+  gap: 31px;
+}
+
+.footerSection__mainSection__menuSection {
+  gap: 54px;
+}
+
+.footerSection__mainSection__menuSection .footerSection__menu-title ul li:last-child {
+  margin-bottom: 0;
+}
+
+.footerSection__mainSection__menuSection .footerSection__menu-title h3,
+.footerSection__mainSection__addressSection .footerSection__addressSection h3 {
+  margin-bottom: 20px;
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 16px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.footerSection__mainSection__menuSection .footerSection__menu-title ul li {
+  margin-bottom: 5px;
+}
+
+.footerSection__mainSection__addressSection {
+  gap: 140px;
+}
+
+.footerSection__mainSection__menuSection .footerSection__menu-title ul li {
+  font-family: 'New York Small';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 222%;
+  color: #6A6161;
+}
+
+.footerSection__mainSection__addressSection .footerSection__addressSection p {
+  font-family: 'New York Small';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 24px;
+  color: #606060;
+}
+
 /* FOOTER SECTION CSS */
 
 /*  DAY 2 UI CHALLENGE END HERE */
