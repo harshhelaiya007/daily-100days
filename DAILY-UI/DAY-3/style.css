@@ -112,6 +112,10 @@ body {
   padding-right: 25px;
 }
 
+.headerSection__mobile-hamBurger {
+  display: none;
+}
+
 /* HEADER CSS */
 /* BANNER CSS */
 .bannerSection {
