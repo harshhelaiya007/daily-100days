@@ -200,10 +200,11 @@ body {
   border: 1px solid #E2E2E2;
   background-color: #FFFFFF;
   position: sticky;
+  width: unset;
 }
 
 .headerSection-v2 .headerSection__wrapper-v2 {
-  padding: 10px 76px;
+  padding: 10px 74px;
 }
 
 .headerSection-v2 .headerSection__wrapper-v2 .headerSection__cart .headerSection__cart-circle {
@@ -381,5 +382,58 @@ body {
 }
 
 /* BRAND SECTION CSS */
+/* GRAM SECTION CSS */
+.gramSliderSection .gramSliderSection__wrapper {
+  padding: 0 75px;
+  margin: 73px 0;
+}
+
+.gramSliderSection .gramSliderSection__wrapper .gramSliderSection__wrapper-inside {
+  align-items: center;
+  justify-content: space-between;
+}
+
+.gramSliderSection .gramSliderSection__wrapper-button {
+  align-items: center;
+  border: 1px solid #000000;
+  gap: 45px;
+  padding: 15px 19px 15px 28px;
+}
+
+.gramSliderSection .gramSliderSection__wrapper-title {
+  font-family: 'New York Small';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 120%;
+  color: #000000;
+}
+
+.gramSliderSection .gramSliderSection__wrapper-button .gramSliderSection__wrapper-button-txt {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 16px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.gramSliderSection .gramSliderSection__slider {
+  gap: 25px;
+}
+
+.gramSliderSection .gramSliderSection__slider .gramSliderSection__item {
+  width: 334px;
+  height: 334px;
+}
+
+.gramSliderSection .gramSliderSection__slider .gramSliderSection__item .gramSliderSection__item-img {
+  width: 100%;
+  height: 100%;
+}
+
+/* GRAM SECTION CSS */
 
 /*  DAY 2 UI CHALLENGE END HERE */
