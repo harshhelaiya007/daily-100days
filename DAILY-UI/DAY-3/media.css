@@ -99,4 +99,154 @@
     }
 
     /* BANNER SECTION CSS */
+    /* NEWS EDITORAL SECTION CSS */
+    .newsEditorialSection__cardSection {
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+        margin: 0;
+    }
+
+    .newEditorialSection__card.startCard,
+    .newEditorialSection__card.endCard,
+    .newEditorialSection__card.midCard {
+        width: 321.74px;
+    }
+
+    .newEditorialSection__card.startCard .newEditorialSection__card-image,
+    .newEditorialSection__card.endCard .newEditorialSection__card-image {
+        width: 321.74px;
+    }
+
+    .newEditorialSection__card.midCard .newEditorialSection__card-image {
+        width: 321.74px;
+        height: max-content;
+    }
+
+    .newEditorialSection__card {
+        margin-bottom: 50px;
+    }
+
+    .newsEditorialSection .newsEditorialSection__title {
+        margin: 45px 0;
+    }
+
+    .newsEditorialSection .newsEditorialSection__title .newsEditorialSection__title-h1 {
+        font-weight: 400;
+        font-size: 28px;
+        line-height: 110.1%;
+    }
+
+    .newEditorialSection__card .newEditorialSection__card-title h4 {
+        font-size: 21px;
+        line-height: 125%;
+    }
+
+    .newEditorialSection__card .newEditorialSection__card-title {
+        margin: 24px 0;
+    }
+
+    .newsEditorialSection__card-desc {
+        margin-top: 0;
+    }
+
+    .newsEditorialSection__quoteText p {
+        font-size: 21px;
+        line-height: 125%;
+    }
+
+    .newsEditorialSection__button .newsEditorialSection__button-btn {
+        font-size: 13px;
+        line-height: 16px;
+        letter-spacing: 0.1em;
+    }
+
+    .newsEditorialSection__button {
+        margin-bottom: 0;
+        display: none;
+    }
+
+    .brandSection__tagline {
+        width: 100%;
+    }
+
+    .bransSection__companyLogo .brandSection__companyLogo-image {
+        width: 43px;
+        height: 43px;
+    }
+
+    .brandSection {
+        padding: 76px 24px;
+    }
+
+    .brandSection__tagline .brandSection__tagline-h3 {
+        font-size: 26px;
+        line-height: 32px;
+    }
+
+    .bransSection__companyLogo {
+        gap: 30px;
+    }
+
+    .gramSliderSection .gramSliderSection__wrapper {
+        padding: 30px 20px;
+    }
+
+    .gramSliderSection .gramSliderSection__slider .gramSliderSection__item .gramSliderSection__item-img {
+        width: 132px;
+        height: 132px;
+    }
+
+    .gramSliderSection .gramSliderSection__slider {
+        gap: 10px;
+        margin: 25px 0;
+    }
+
+    .gramSliderSection .gramSliderSection__slider {
+        overflow: scroll;
+    }
+
+    .footerSection__wrapper .footerSection__emailSection {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .footerSection__emailSection-input {
+        width: 265px;
+    }
+
+    .footerSection__mainSection {
+        padding: 33px;
+    }
+
+    .footerSection__mainSection .footerSection__mainInside {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 56px;
+    }
+
+    .footerSection__mainSection__addressSection {
+        flex-direction: column;
+        gap: 37px;
+    }
+
+    .footerSection {
+        /* display: none; */
+    }
+
+    .footerSection__social {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 33px;
+    }
+
+    .footerSection__mainSection__menuSection {
+        flex-wrap: wrap;
+        gap: 76px;
+    }
+    .footerSeciton__copyRightTxt.hide {
+        display: none;
+    }
+
+    /* NEWS EDITORAL SECTION CSS */
 }
