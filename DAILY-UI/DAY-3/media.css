@@ -1,0 +1,102 @@
+@media screen and (max-width: 767px) {
+
+    /* COMMON CSS */
+    .layContainer {
+        max-width: 100%;
+    }
+
+    /* COMMON CSS */
+    /* HEADER SECTION CSS */
+
+    .headerSection__ul {
+        display: none;
+    }
+
+    .headerSection__accountInfoSection .headerSection__search {
+        border: none;
+        display: none;
+    }
+
+    .headerSection__account {
+        display: none;
+    }
+
+    .headerSection-v2 .headerSection__wrapper-v2 {
+        padding: 15px 20px;
+    }
+
+    .headerSection__accountInfoSection .headerSection__cart .headerSection__cart-circle {
+        width: 28px;
+        height: 28px;
+    }
+
+    .headerSection__mobile-hamBurger {
+        display: block;
+    }
+
+    .mobile-search {
+        margin-left: 19px;
+    }
+
+    .headerSection__accountInfoSection {
+        padding-right: 0;
+    }
+
+    /* HEADER SECTION CSS */
+    /* BANNER SECTION CSS */
+    .bannerSection__wrapper {
+        flex-direction: column-reverse;
+    }
+
+    .bannerSection .bannerSection__wrapper .bannerSection__leftSide,
+    .bannerSection .bannerSection__wrapper .bannerSection__rightSide {
+        width: 100%;
+    }
+
+    .bannerSection .bannerSection__wrapper .bannerSection__rightSide {
+        min-height: unset;
+    }
+
+    .bannerSection .bannerSection__wrapper .bannerSection__leftSide .bannerSection__leftSide-box {
+        margin-left: 0;
+    }
+
+    .bannerSection .bannerSection__wrapper .bannerSection__leftSide .bannerSection__text {
+        width: 100%;
+        position: relative;
+        top: 0;
+        margin-left: 0;
+        margin-top: 10px;
+    }
+
+    .bannerSection .bannerSection__wrapper .bannerSection__leftSide .bannerSection__text h1 {
+        font-size: 40px;
+        line-height: 42px;
+    }
+
+    .bannerSection .bannerSection__wrapper .bannerSection__leftSide .bannerSection__desc {
+        position: relative;
+        margin: 10px 0;
+    }
+
+    .bannerSection .bannerSection__wrapper .bannerSection__leftSide .bannerSection__desc p {
+        width: 100%;
+    }
+
+    .bannerSection .bannerSection__wrapper .bannerSection__leftSide .bannerSection__desc .bannerSection__20x20Image {
+        display: flex;
+        justify-content: center;
+    }
+
+    .bannerSection .bannerSection__wrapper .bannerSection__leftSide .bannerSection__text h1 {
+        text-align: center;
+        padding: 0 10px;
+    }
+
+    .bannerSection .bannerSection__wrapper .bannerSection__leftSide .bannerSection__desc p {
+        line-height: 26px;
+        text-align: center;
+    }
+
+    /* BANNER SECTION CSS */
+}

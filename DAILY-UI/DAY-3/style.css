@@ -55,6 +55,7 @@ body {
   /* position: fixed;
   width: calc(100% - 150px); */
   align-items: center;
+  z-index: 1;
 }
 
 .headerSection .headerSection__wrapper .headerSection__left {
@@ -110,6 +111,10 @@ body {
 .headerSection__accountInfoSection {
   align-items: center;
   padding-right: 25px;
+}
+
+.headerSection__mobile-hamBurger {
+  display: none;
 }
 
 /* HEADER CSS */
@@ -485,6 +490,7 @@ body {
   font-size: 17px;
   line-height: 24px;
   color: #000000;
+  z-index: -1;
 }
 
 .footerSection__emailSection-input::placeholder {
